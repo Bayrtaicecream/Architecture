@@ -1,0 +1,108 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./realbackground.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.back{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: -400px;
+    background-color: white;
+    border-radius: 10px;
+}
+.inputheader{
+    width: 80%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.name-inp{
+    width: 80%;
+    height: 8%;
+    font-size: 15px;
+    padding-left: 15px ;
+    outline-color:  blue 1px;
+    outline: none;
+    
+
+}
+.id-inp{
+    width: 86%;
+    height: 100%;
+    font-size: 15px;
+    margin-top: 5px;
+    padding-left: 15px ;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+.save-btn{
+    width: 13%;
+    height: 100%;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: rgb(240, 240, 240);
+    border-radius: 3px;
+    font-size: 15px;
+    background-image: linear-gradient(302deg, #00bbff 46%, #00d7eb 100%)
+} 
+.person{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -50px;
+    border-radius: 50%;
+    background-color: rgb(0, 50, 103);
+    border: none;
+    outline: none;
+}
+.person img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.755);
+}
+.forgets{
+    width: 80%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.forgets .forpass{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 10px;
+    color: grey;
+}
+.forgets .register{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: grey;
+}
